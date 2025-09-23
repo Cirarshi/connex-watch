@@ -160,6 +160,6 @@ Contributions are welcome! Please fork the repo, make your changes, and submit a
 📬 Contact
 
   - GitHub: [Cirarshi](https://github.com/Cirarshi) 
-  - Email: 22.utkarsh.kapoor@gmail.com(mailto:22.utkarsh.kapoor@gmail.com)
+  - Email: [22.utkarsh.kapoor@gmail.com](mailto:22.utkarsh.kapoor@gmail.com)
 
 ---
