@@ -93,8 +93,8 @@ connex-watch/
 1. **Clone the repository**
 
 ```bash
-git clone https://github.com/your-username/ott-app.git
-cd ott-app
+git clone https://github.com/Cirarshi/connex-watch.git
+cd connex-watch
 ```
 
 2. **Backend Setup**
