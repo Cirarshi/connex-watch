@@ -29,7 +29,7 @@ An **Over-the-Top (OTT) streaming platform** built with **React** for frontend, 
 | Backend      | Node.js, Express.js |
 | Database     | Firebase Firestore |
 | Auth         | Firebase Auth |
-| Deployment   | Vercel / Firebase Hosting / Netlify |
+| Deployment   | Netlify |
 
 ---
 <!--
