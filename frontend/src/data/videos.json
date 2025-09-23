@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "title": "A Dream Trip",
+    "youtubeId": "dkeIGsRTFnE",
+    "thubnail": "/Thumbnail/Ladakh_Thumbnail.png"
+  },
+  {
+    "id": 2,
+    "title": "Kota Drone Show",
+    "youtubeId": "XrQsvYzdiNs",
+    "thubnail": "/Thumbnail/DroneShow_Thumbnail.png"
+  },
+  {
+    "id": 3,
+    "title": "Samsung Watch 7",
+    "youtubeId": "GnbO6J2ICXE",
+    "thubnail": "/Thumbnail/Watch7_Thumnail.png"
+  }
+]

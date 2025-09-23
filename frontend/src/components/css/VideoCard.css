@@ -1,0 +1,38 @@
+/* src/components/VideoCard.css */
+
+.video-slider {
+  height: 100vh; /* take full viewport height */
+  overflow-y: scroll; /* allow vertical scroll */
+  scroll-snap-type: y mandatory; /* snap effect */
+  scrollbar-width: none; /* hide scrollbar (Firefox) */
+}
+
+.video-slider::-webkit-scrollbar {
+  display: none; /* hide scrollbar (Chrome/Safari) */
+}
+
+.video-slide {
+  height: 100vh; /* each slide fills the screen */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  scroll-snap-align: start; /* snap each video */
+  background: #000; /* keep cinematic black background */
+}
+
+.video-slide img {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.6);
+}
+
+.video-slide p {
+  margin-top: 16px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+}
