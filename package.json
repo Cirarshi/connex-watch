@@ -5,6 +5,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "vite": "^5.0.0"
     "firebase": "^12.3.0"
   }
 }
