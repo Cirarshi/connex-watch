@@ -7,7 +7,7 @@ import Navbar from "../components/Navbar";
 
 const dummyHistory = [
   { id: 1, title: "A Dream Trip" },
-  { id: 2, title: "CKota Drone Show" },
+  { id: 2, title: "Kota Drone Show" },
   { id: 3, title: "Samsung Watch 7" },
 ];
 
