@@ -24,3 +24,5 @@ export function AuthProvider({ children }) {
 export function useAuth() {
   return useContext(AuthContext);
 }
+
+//updated the correct name of the file to AuthContext.jsx
