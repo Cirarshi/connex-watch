@@ -46,7 +46,7 @@ export default function Login() {
             email,
             password
           );
-          console.log("Logged in user:", userCredential.user);
+          //console.log("Logged in user:", userCredential.user);
           alert("🎉 Login successful!");
           navigate("/");
         } catch (error) {
