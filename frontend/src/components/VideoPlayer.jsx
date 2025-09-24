@@ -1,7 +1,6 @@
 // src/components/VideoPlayer.jsx
 import { useEffect, useRef } from "react";
 import Hls from "hls.js";
-import Navbar from "./Navbar";
 
 export default function VideoPlayer({ src }) {
   const videoRef = useRef();
@@ -18,7 +17,6 @@ export default function VideoPlayer({ src }) {
 
   return (
     <>
-      <Navbar />
       <video
         ref={videoRef}
         controls

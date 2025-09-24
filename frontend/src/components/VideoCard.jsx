@@ -2,7 +2,6 @@
 import { Link } from "react-router-dom";
 import "./css/VideoCard.css";
 import { useState, useEffect } from "react";
-import Navbar from "./Navbar";
 
 export default function VideoCard({ videos }) {
   const [current, setCurrent] = useState(0);

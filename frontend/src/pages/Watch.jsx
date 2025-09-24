@@ -1,5 +1,6 @@
 import { useParams } from "react-router-dom";
 import VideoPlayer from "../components/VideoPlayer";
+import Navbar from "../components/Navbar";
 import videos from "../data/videos.json";
 
 export default function Watch() {
@@ -11,6 +12,7 @@ export default function Watch() {
 
   return (
     <div className="p-4">
+      <Navbar />
       <h1 className="text-2xl text-white mb-4">{video.title}</h1>
       <div className="aspect-w-16 aspect-h-9">
         <iframe
