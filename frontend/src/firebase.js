@@ -2,21 +2,21 @@
 import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
-import { getAnalytics } from "firebase/analytics";
+//import { getAnalytics } from "firebase/analytics";
 
 // Your config here
 const firebaseConfig = {
-  apiKey: "AIzaSyAPRGZAvYipYVU1yfWGaM8tMfWtXZt9KGA",
-  authDomain: "connex-watch.firebaseapp.com",
-  projectId: "connex-watch",
-  storageBucket: "connex-watch.firebasestorage.app",
-  messagingSenderId: "973384307270",
-  appId: "1:973384307270:web:52d28299c5124cfe103047",
-  measurementId: "G-C3P9YC9E8P",
+  apiKey: import.meta.env.VITE_apiKey,
+  authDomain: import.meta.env.VITE_authDomain,
+  projectId: import.meta.env.VITE_projectId,
+  storageBucket: import.meta.env.VITE_storageBucket,
+  messagingSenderId: import.meta.env.VITE_messagingSenderId,
+  appId: import.meta.env.VITE_appId,
+  measurementId: import.meta.env.VITE_measurementId,
 };
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
-const analytics = getAnalytics(app);
+//const analytics = getAnalytics(app);
 export const auth = getAuth(app);
 export const db = getFirestore(app);

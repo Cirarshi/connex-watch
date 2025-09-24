@@ -4,7 +4,7 @@
   height: 100vh; /* take full viewport height */
   overflow-y: scroll; /* allow vertical scroll */
   scroll-snap-type: y mandatory; /* snap effect */
-  scrollbar-width: none; /* hide scrollbar (Firefox) */
+  /*scrollbar-width: none; hide scrollbar (Firefox) */
 }
 
 .video-slider::-webkit-scrollbar {
